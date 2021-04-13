@@ -1,0 +1,25 @@
+<mvc:View 
+xmlns:tnt="sap.tnt"
+controllerName="desafio.l4e.app.controller.Menu" 
+xmlns:mvc="sap.ui.core.mvc" 
+displayBlock="true" 
+xmlns="sap.m">
+	<Page showHeader="true" title="Menu" titleAlignment="Center">
+        <content>
+           <VBox width="100%">
+				<Image id="imagemSolar" src="images/solarlogo.png" width="100%" height="100%"/>
+                <tnt:NavigationList
+                    id="navigationList"
+                    width="320px"
+                    selectedKey="subItem3"
+                    itemSelect="onItemSelect">
+                    <tnt:NavigationListItem text="Plataforma" icon="sap-icon://building">
+                        <tnt:NavigationListItem text="Cadastrar Plataforma" key="CadastroPlataformas"/>
+                        <tnt:NavigationListItem text="Consultar Plataforma" key="ConsultaPlataformas"/>
+                    </tnt:NavigationListItem>
+                </tnt:NavigationList>
+			</VBox>
+        
+        </content>
+    </Page>
+</mvc:View>

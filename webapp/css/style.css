@@ -1,0 +1,63 @@
+/* Enter your custom styles here */
+/* .sapMIBar {
+    background-color: rgb(39, 39, 39)!important;
+    
+} */
+div.sapTntNavLIItem.sapTntNavLIGroup {
+    background-color: #f39136;
+    color: white;
+}
+div.sapTntNavLIItem.sapTntNavLIGroup:hover{
+    background-color: #e86d02;
+}
+
+div.sapTntNavLIItem.sapTntNavLIGroup>a>span.sapMText.sapTntNavLIText.sapMTextNoWrap{
+    color: white !important;
+}
+
+div.sapMBarPH.sapMBarContainer {
+    background-color: #e86d02;
+}
+
+div.sapMTitle.sapMTitleStyleAuto.sapMTitleNoWrap.sapUiSelectable.sapMTitleMaxWidth.sapMBarChild{
+    color: white;
+    font-weight: bold;
+}
+
+div.sapMFlexItemAlignAuto.sapMFlexBoxBGTransparent.sapMFlexItem, section.sapMPageEnableScrolling.sapUiScrollDelegate{
+    background-color: #f39136;
+}
+li.sapTntNavLIItem.sapTntNavLIGroupItem>a{
+    background-color: #f7a253;
+}
+li.sapTntNavLIItem.sapTntNavLIGroupItem>a:hover{
+    background-color: #f39136;
+}
+#container-app---cadastroplataformas--form-cont {
+    background-color: white !important;
+}
+/* section.sapMPageEnableScrolling.sapUiScrollDelegate{
+    background-color: #ffffff;
+} */
+
+
+/* #__page0-title-inner, #__page2-intHeader-BarPH,#__text4-container-app---consultaplataformas--tablePlataformas-4{
+    font-weight: bold!important;
+    color: #ffffff!important;
+}
+#__page1-cont{
+    background-color: #f39136!important;
+}
+#__page1-title-inner, #__page2-title-inner{
+    font-weight: bold!important;
+    color: #ffffff!important;
+}
+#__item2-a, #__item3-a{
+    background-color: #f39136!important;
+}
+#__item0-a, #__item1-a{
+    background-color: #f5851c!important
+}
+#__toolbar0{
+    background-color: #ffffff!important;
+} */
